@@ -37,6 +37,7 @@ gulp.task('multi', () => {
 	return gulp.src('src/**')
 		.pipe(jsFilter)
 		.pipe(concat('bundle.js'))
+		.pipe(uglify())
 		.pipe(jsFilter.restore)
 		.pipe(lessFilter)
 		.pipe(less())
