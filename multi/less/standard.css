@@ -1,0 +1,38 @@
+/*云市场页面基本规范*/
+/*red: 默认hover红色*/
+/*#40465a:列表子项区域显示背景 */
+/*deepred: 按钮hover红色*/
+/*blue：辅助及文字颜色*/
+/*辅助： 桔色&黄色*/
+/*font:三色*/
+/*font:蓝色*/
+/*
+ * navbg：导航灰色
+ * bodybg: body背景色
+ * line: 按钮\辅助色\装饰线 背景色
+ */
+/* font-size
+ * 12px 14px 17px 21px 23px 27px
+*/
+body {
+  color: #333;
+  background-color: #F8F8F8;
+  font-size: 12px;
+  line-height: 1.5;
+  font-family: "PingFang SC", "Helvetica Neue", Helvetica, Arial, "Hiragino Sans GB", "Microsoft Yahei", "微软雅黑", STHeiti, "华文细黑", sans-serif;
+}
+a:hover {
+  color: #DD3730;
+}
+.container-whole {
+  width: 100%;
+}
+/*设置页面宽度*/
+.container {
+  width: 1200px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.pure-g {
+  font-family: "PingFang SC", "Helvetica Neue", Helvetica, Arial, "Hiragino Sans GB", "Microsoft Yahei", "微软雅黑", STHeiti, "华文细黑", sans-serif !important;
+}
